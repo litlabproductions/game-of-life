@@ -1,6 +1,6 @@
 # Conway's Game of Life
-### a Cellular Automaton<br><br>
-#### Developed in 64-bit integer-space using C++ and Javascript
+### a Cellular Automaton
+#### Developed in 64-bit integer-space using C++ and Javascript<br><br>
 ##### by David Guido<br>for Riot Games SE-B Interview
 
 ***
@@ -33,7 +33,7 @@
       * Allows for the full range of 64-bit integer values to be used as coordinates<br>i.e. Between **-9,223,372,036,854,775,808** *and* **9,223,372,036,854,775,807** 
 ![output00](https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![output01](https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png)
-
+      * A Blinker Oscillator with coordinate values very close to the minimum value allowed in 64 bit integer space
 <br>
 
       
@@ -50,7 +50,7 @@
       * Provides the user with an option to "Log All Alive Cells" which prints the full list of alive cells to the console each generation. This is helpful to see how alive cells outside the scope of the grid are behaving 
     * Notes:
       * Since javascript doesnt fully support 64-bit integers, coordinates with (x,y) values between **-2,000,000,000,000,011** *and* **2,000,000,000,000,012** were used
-      * This p5.js project is meant to act as a visual, showing how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly through a variety of different pattern examples<br><br>
+      * This p5.js project is meant to act as a visual, showing examples of how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly through a variety of different patterns <br><br>
 ![output03](https://user-images.githubusercontent.com/34845402/183557671-d4749f28-8754-4f25-b978-d2b5102e82fa.gif)
 
 <br>
