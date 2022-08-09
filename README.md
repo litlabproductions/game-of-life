@@ -1,18 +1,18 @@
-## Conway's Game of Life
-### a Cellular Automaton
+# Conway's Game of Life
+### a Cellular Automaton<br><br>
 #### Developed in 64-bit integer-space using C++ and Javascript
 ##### by David Guido<br>for Riot Games SE-B Interview
 
 ***
 
-### Rules:
+## Rules
 * If an *alive* cell had less than **2** or more than **3** alive neighbors (in any of the 8 surrounding cells), it becomes *dead*
 * If a *dead* cell had exactly 3 alive neighbors, it becomes *alive*
 
 
 ***
 
-### Approach:
+## Approach
  * Because of size restrictions, use a vector of coordinate pairs (x,y) representing live cells
  * Only consider cells for life next generation if they are:
    1. Currently alive
@@ -20,7 +20,7 @@
  
 ***
 
-### Versions:
+## Versions
 
 1. **C++**
    * Location: This Repository
@@ -58,15 +58,15 @@
 #### Note: The following functions are shared by both versions. Since these functions share the same pseudocode, differences are in syntax only.
 ```cpp
 // Calculates one iteration (generation) of Conway's Game of Life
-vector<vector<int>> gameOfLife(vector<vector<int>> aliveCoords)
+vector<vector<int>> gameOfLife(vector<vector<int>> aliveCoords);
 ```
 
 ```cpp
 // Helper function. Retrieves a cells adjacent neighbors.
-vector<vector<int>> getNeighbors(vector<int> coord)
+vector<vector<int>> getNeighbors(vector<int> coord);
 ```
  
 ```cpp
 // Helper function. Inserts two 64-bit integer coordinates into a vector.
-vector<int> insertPair(int x, int y)
+vector<int> insertPair(int x, int y);
 ```
