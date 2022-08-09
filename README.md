@@ -8,7 +8,7 @@
 ## Table of contents
 - [Rules](#rules)
 - [Approach](#approach)
-- [Versions](#versions)
+- [Submission Versions](#submission-versions)
   - [Cpp](#cpp)
   - [Javascript](#javascript)
 
@@ -28,7 +28,7 @@
  
 ***
 
-## Versions
+## Submission Versions
 
 ### Cpp
    * Location: This Repository
