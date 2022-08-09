@@ -5,6 +5,13 @@
 
 ***
 
+### Rules:
+* If an *alive* cell had less than **2** or more than **3** alive neighbors (in any of the 8 surrounding cells), it becomes *dead*
+* If a *dead* cell had exactly 3 alive neighbors, it becomes *alive*
+
+
+***
+
 ### Approach:
  * Because of size restrictions, use a vector of coordinate pairs (x,y) representing live cells
  * Only consider cells for life next generation if they are:
@@ -16,24 +23,35 @@
 ### Versions:
 
 1. **C++**
-   * Location: [main.cpp](main.cpp)
+   * Location: This Repository
+   * Link: [GameOfLife.cpp](GameOfLife.cpp)
    * Description:
       * Reads the state of the simulation from standard input
       * Runs 10 iterations (generations) of the Game of Life
-      * Prints the results to standard output in Life 1.06 formatg
+      * Prints the results to standard output in Life 1.06 format
     * Notes:
-      * Allows for the full range of 64-bit integer values to be used as coordinates<br>i.e. Between **-9,223,372,036,854,775,808** *and* **9,223,372,036,854,775,807** <br><br>
+      * Allows for the full range of 64-bit integer values to be used as coordinates<br>i.e. Between **-9,223,372,036,854,775,808** *and* **9,223,372,036,854,775,807** 
+![output00](https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![output01](https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png)
+
+<br>
+
       
 2. **Javascript**
-   * Location: [p5.js Sketch](https://editor.p5js.org/davidmguido93/full/OZgcij1Ya)
+   * Location: p5.js
+   * Link: 
+      * Editor: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/OZgcij1Ya)
+      * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/OZgcij1Ya)
    * Description:
-      * Renders 1-30 Generations of the Game of Life to the screen by coloring a 11x11 cell grid 
-      * Allows for user-defined: number of generations, simulation speed and choice of pattern
+      * Renders 1-30 Generations of the Game of Life to the screen
+      * Each generation, alive cells within the 23x23 cell grid are colored green
+      * Allows for user-defined: Number of generations, simulation speed and pattern
       * For each pattern, the grid is centered on the first (x, y) coordinate in the alive cell list
-      * Provides the user with an option to "Log All Alive Cells" which will print the full list of alive cells to the console each generation. This is helpful to see how alive cells outside the scope of the grid are behaving
+      * Provides the user with an option to "Log All Alive Cells" which prints the full list of alive cells to the console each generation. This is helpful to see how alive cells outside the scope of the grid are behaving 
     * Notes:
-      * Since javascript doesnt fully support 64-bit integers, coordinates with (x,y) values between **-2,000,000,000,000,001** *and* **2,000,000,000,000,002** were used
-      * This p5.js project is meant to act as a visual, showing how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly
+      * Since javascript doesnt fully support 64-bit integers, coordinates with (x,y) values between **-2,000,000,000,000,011** *and* **2,000,000,000,000,012** were used
+      * This p5.js project is meant to act as a visual, showing how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly through a variety of different pattern examples<br><br>
+![output03](https://user-images.githubusercontent.com/34845402/183557671-d4749f28-8754-4f25-b978-d2b5102e82fa.gif)
 
 <br>
 
