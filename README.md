@@ -4,12 +4,10 @@
 ##### by David Guido<br>for Riot Games SE-B Interview
 
 ***
-<br><br>
-#### Approach:
 
+<br>
 
-<br><br>
-#### Versions:
+### Versions:
 
 1. **C++**
    * Location: [main.cpp](main.cpp)
