@@ -31,8 +31,7 @@
 ## Submission Versions
 
 ### Cpp
-   * Location: This Repository
-   * Link: [GameOfLife.cpp](GameOfLife.cpp)
+   * Source Code: [GameOfLife.cpp](GameOfLife.cpp)
    * Description:
       * Reads the state of the simulation from standard input
       * Runs 10 iterations (generations) of the Game of Life
@@ -45,10 +44,10 @@
 
       
 ### Javascript
-   * Location: p5.js
-   * Link: 
-      * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
+   * Source Code: [GameOfLife.js](GameOfLife.js)
+   * Links (p5.js): 
       * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/quXf_y6lt)
+      * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
    * Description:
       * Renders 1-30 Generations of the Game of Life to the screen
       * Each generation, alive cells within the 23x23 cell grid are colored green
