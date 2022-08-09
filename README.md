@@ -40,8 +40,8 @@
 2. **Javascript**
    * Location: p5.js
    * Link: 
-      * Editor: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/OZgcij1Ya)
-      * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/OZgcij1Ya)
+      * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
+      * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/quXf_y6lt)
    * Description:
       * Renders 1-30 Generations of the Game of Life to the screen
       * Each generation, alive cells within the 23x23 cell grid are colored green
