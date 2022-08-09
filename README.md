@@ -5,10 +5,18 @@
 
 ***
 
+## Table of contents
+- [Rules](#rules)
+- [Approach](#approach)
+- [Versions](#versions)
+  - [Cpp](#cpp)
+  - [Javascript](#javascript)
+
+***
+
 ## Rules
 * If an *alive* cell had less than **2** or more than **3** alive neighbors (in any of the 8 surrounding cells), it becomes *dead*
 * If a *dead* cell had exactly 3 alive neighbors, it becomes *alive*
-
 
 ***
 
@@ -22,7 +30,7 @@
 
 ## Versions
 
-1. **C++**
+### Cpp
    * Location: This Repository
    * Link: [GameOfLife.cpp](GameOfLife.cpp)
    * Description:
@@ -37,7 +45,7 @@
 <br>
 
       
-2. **Javascript**
+### Javascript
    * Location: p5.js
    * Link: 
       * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
@@ -48,7 +56,7 @@
       * Allows for user-defined: Number of generations, simulation speed and pattern
       * For each pattern, the grid is centered on the first (x, y) coordinate in the alive cell list
       * Provides the user with an option to "Log All Alive Cells" which prints the full list of alive cells to the console each generation. This is helpful to see how alive cells outside the scope of the grid are behaving 
-    * Notes:
+   * Notes:
       * Since javascript doesnt fully support 64-bit integers, coordinates with (x,y) values between **-2,000,000,000,000,011** *and* **2,000,000,000,000,012** were used
       * This p5.js project is meant to act as a visual, showing examples of how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly through a variety of different patterns <br><br>
 ![output03](https://user-images.githubusercontent.com/34845402/183557671-d4749f28-8754-4f25-b978-d2b5102e82fa.gif)
