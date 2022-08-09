@@ -46,7 +46,7 @@
 ### Javascript
    * Source Code: [GameOfLife.js](GameOfLife.js)
    * Animation Links: 
-      * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/quXf_y6lt)
+      * Fullscreen: [https://editor.p5js.org/davidmguido93/full/quXf_y6lt](https://editor.p5js.org/davidmguido93/full/quXf_y6lt)
       * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
    * Description:
       * Renders 1-30 Generations of the Game of Life to the screen
