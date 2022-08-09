@@ -36,7 +36,7 @@
       * Reads the state of the simulation from standard input
       * Runs 10 iterations (generations) of the Game of Life
       * Prints the results to standard output in Life 1.06 format
-    * Notes:
+   * Notes:
       * Allows for the full range of 64-bit integer values to be used as coordinates<br>i.e. Between **-9,223,372,036,854,775,808** *and* **9,223,372,036,854,775,807** 
       <br><br><img src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" height="400" />&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" height="400" />
       * A Blinker Oscillator with coordinate values very close to the minimum value allowed in 64 bit integer space
@@ -45,7 +45,7 @@
       
 ### Javascript
    * Source Code: [GameOfLife.js](GameOfLife.js)
-   * Links (p5.js): 
+   * Animation Links: 
       * Fullscreen: [https://editor.p5js.org/davidmguido93/full/OZgcij1Ya](https://editor.p5js.org/davidmguido93/full/quXf_y6lt)
       * Editor: [https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt](https://editor.p5js.org/davidmguido93/sketches/quXf_y6lt)
    * Description:
@@ -53,7 +53,7 @@
       * Each generation, alive cells within the 23x23 cell grid are colored green
       * Allows for user-defined: Number of generations, simulation speed and pattern
       * For each pattern, the grid is centered on the first (x, y) coordinate in the alive cell list
-      * Provides the user with an option to "Log All Alive Cells" which prints the full list of alive cells to the console each generation. This is helpful to see how alive cells outside the scope of the grid are behaving 
+      * Provides the user with an option to "Log All Alive Cells" which prints the full list of alive cells to the console each generation. This is helpful  n to see how alive cells outside the scope of the grid are behaving
    * Notes:
       * Since javascript doesnt fully support 64-bit integers, coordinates with (x,y) values between **-2,000,000,000,000,011** *and* **2,000,000,000,000,012** were used
       * This p5.js project is meant to act as a visual, showing examples of how the gameOfLife() function handles small and very large (positive and negative) coordinate inputs similarly through a variety of different patterns <br><br>
