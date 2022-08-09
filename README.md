@@ -86,6 +86,6 @@ vector<int> insertPair(int x, int y);
 <br/>
 Thanks for reading!<br><br>For more information on Conway's Game of Life visit:<br>
 
-[The Game of Life Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+[The Game of Life Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 <br/><br/>
