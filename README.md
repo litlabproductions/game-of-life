@@ -78,3 +78,16 @@ vector<vector<int>> getNeighbors(vector<int> coord);
 // Helper function. Inserts two 64-bit integer coordinates into a vector.
 vector<int> insertPair(int x, int y);
 ```
+
+<br>
+
+***
+
+<br>
+
+<br/>
+Thanks for reading!<br><br>For more information on Conway's Game of Life visit:<br>
+
+[The Game of Life Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+<br/><br/>
