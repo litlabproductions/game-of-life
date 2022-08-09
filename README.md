@@ -39,7 +39,7 @@
       * Prints the results to standard output in Life 1.06 format
     * Notes:
       * Allows for the full range of 64-bit integer values to be used as coordinates<br>i.e. Between **-9,223,372,036,854,775,808** *and* **9,223,372,036,854,775,807** 
-      <br><br><img src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" height="415" />&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" height="415" />
+      <br><br><img src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555785-e2631a78-786f-4224-8c97-dd1acfebb8ad.png" height="400" />&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" data-canonical-src="https://user-images.githubusercontent.com/34845402/183555788-31f3ef4b-f9ce-4941-8c1a-5b37043b9af0.png" height="400" />
       * A Blinker Oscillator with coordinate values very close to the minimum value allowed in 64 bit integer space
 <br>
 
